@@ -4,14 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/V-02/app/src/main/res/drawable/ic_wave__1_.xml" value="0.177" />
+        <entry key="..\:/V-02/app/src/main/res/drawable/round_black.xml" value="0.199" />
         <entry key="..\:/V-02/app/src/main/res/drawable/round_border.xml" value="0.166" />
         <entry key="..\:/V-02/app/src/main/res/drawable/round_btn.xml" value="0.166" />
+        <entry key="..\:/V-02/app/src/main/res/drawable/vec_comments.xml" value="0.199" />
+        <entry key="..\:/V-02/app/src/main/res/drawable/vec_dislike.xml" value="0.199" />
         <entry key="..\:/V-02/app/src/main/res/drawable/vec_dob.xml" value="0.166" />
         <entry key="..\:/V-02/app/src/main/res/drawable/vec_email.xml" value="0.166" />
         <entry key="..\:/V-02/app/src/main/res/drawable/vec_input.xml" value="0.166" />
+        <entry key="..\:/V-02/app/src/main/res/drawable/vec_like.xml" value="0.199" />
+        <entry key="..\:/V-02/app/src/main/res/drawable/vec_menu.xml" value="0.199" />
         <entry key="..\:/V-02/app/src/main/res/drawable/vec_password.xml" value="0.166" />
         <entry key="..\:/V-02/app/src/main/res/drawable/vec_reg.xml" value="0.166" />
         <entry key="..\:/V-02/app/src/main/res/drawable/vec_registration.xml" value="0.166" />
+        <entry key="..\:/V-02/app/src/main/res/drawable/vec_star.xml" value="0.199" />
         <entry key="..\:/V-02/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/V-02/app/src/main/res/layout/activity_login.xml" value="0.22395833333333334" />
         <entry key="..\:/V-02/app/src/main/res/layout/activity_main.xml" value="0.2" />

@@ -7,6 +7,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
@@ -27,6 +29,7 @@ public class HomeActivity extends AppCompatActivity {
     private GamesFragment gamesFragment;
     private NewsFragment newsFragment;
     private MoviesFragment moviesFragment;
+// recyclerview set
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,9 @@ public class HomeActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar_main);
         viewPager = findViewById(R.id.view_pager);
         tabLayout = findViewById(R.id.tab_layout);
+
+        //recycler view set
+
 
         // fragment pages set
         gamesFragment = new GamesFragment();
