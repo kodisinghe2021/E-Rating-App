@@ -11,4 +11,19 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string-array name="games_names">
+        <item>Need for Speed</item>
+        <item>Grant Thief Auto</item>
+        <item>IGI</item>
+        <item>Angry Bird</item>
+    </string-array>
+
+    <string-array name="games_types">
+        <item>Car Race</item>
+        <item>Thriller</item>
+        <item>War game</item>
+        <item>Shooting</item>
+    </string-array>
 </resources>

@@ -16,7 +16,6 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import com.google.android.material.tabs.TabLayout;
-import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +28,9 @@ public class HomeActivity extends AppCompatActivity {
     private GamesFragment gamesFragment;
     private NewsFragment newsFragment;
     private MoviesFragment moviesFragment;
-// recyclerview set
+    // recyclerview Strings
+    String s1[], s2[];
+    RecyclerView recyclerView_games;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +41,13 @@ public class HomeActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.view_pager);
         tabLayout = findViewById(R.id.tab_layout);
 
-        //recycler view set
-
-
+        //recycler view Array set
+        recyclerView_games = findViewById(R.id.recyclerview_news);
+        s1 = getResources().getStringArray(R.array.games_names);
+        s2 = getResources().getStringArray(R.array.games_titles);
+        RecAdapter recAdapter = new RecAdapter(this,s1,s2);
+recyclerView_games.setAdapter(recAdapter);
+recyclerView_games.setLayoutManager(new LinearLayoutManager(this));
         // fragment pages set
         gamesFragment = new GamesFragment();
         moviesFragment = new MoviesFragment();
