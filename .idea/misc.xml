@@ -23,8 +23,11 @@
         <entry key="..\:/V-02/app/src/main/res/layout/activity_login.xml" value="0.22395833333333334" />
         <entry key="..\:/V-02/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/V-02/app/src/main/res/layout/activity_registration.xml" value="0.264" />
+        <entry key="..\:/V-02/app/src/main/res/layout/cardes_row.xml" value="0.2546875" />
+        <entry key="..\:/V-02/app/src/main/res/layout/fragment_blank.xml" value="0.2546875" />
         <entry key="..\:/V-02/app/src/main/res/layout/fragment_first.xml" value="0.2546875" />
         <entry key="..\:/V-02/app/src/main/res/layout/fragment_games.xml" value="0.264" />
+        <entry key="..\:/V-02/app/src/main/res/layout/fragment_login.xml" value="0.24114583333333334" />
         <entry key="..\:/V-02/app/src/main/res/layout/fragment_movies.xml" value="0.1171875" />
         <entry key="..\:/V-02/app/src/main/res/layout/fragment_news.xml" value="0.176" />
         <entry key="..\:/V-02/app/src/main/res/layout/fragment_second.xml" value="0.2546875" />

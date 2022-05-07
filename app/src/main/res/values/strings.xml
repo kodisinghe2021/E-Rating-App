@@ -12,18 +12,59 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-
+<!--  games names-->
     <string-array name="games_names">
         <item>Need for Speed</item>
         <item>Grant Thief Auto</item>
         <item>IGI</item>
         <item>Angry Bird</item>
+        <item>Need for Speed</item>
+        <item>Grant Thief Auto</item>
+        <item>IGI</item>
+        <item>Angry Bird</item>
     </string-array>
-
+    <!--  games types-->
     <string-array name="games_types">
         <item>Car Race</item>
         <item>Thriller</item>
         <item>War game</item>
         <item>Shooting</item>
+        <item>Car Race</item>
+        <item>Thriller</item>
+        <item>War game</item>
+        <item>Shooting</item>
     </string-array>
+    <!--  games main images url-->
+    <string-array name="image_main_url">
+        <item>https://picsum.photos/id/109/400/250</item>
+        <item>https://picsum.photos/id/242/400/250</item>
+        <item>https://picsum.photos/id/353/400/250</item>
+        <item>https://picsum.photos/id/401/400/250</item>
+        <item>https://picsum.photos/id/109/400/250</item>
+        <item>https://picsum.photos/id/242/400/250</item>
+        <item>https://picsum.photos/id/353/400/250</item>
+        <item>https://picsum.photos/id/401/400/250</item>
+    </string-array>
+
+    <!--  games main images url-->
+    <string-array name="image_logo_url">
+        <item>https://picsum.photos/id/109/100/100</item>
+        <item>https://picsum.photos/id/242/100/100</item>
+        <item>https://picsum.photos/id/353/100/100</item>
+        <item>https://picsum.photos/id/401/100/100</item>
+        <item>https://picsum.photos/id/1094/100/100</item>
+        <item>https://picsum.photos/id/1042/100/100</item>
+        <item>https://picsum.photos/id/1053/100/100</item>
+        <item>https://picsum.photos/id/1001/100/100</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

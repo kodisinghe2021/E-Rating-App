@@ -10,15 +10,35 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.eratingappv_02.databinding.FragmentNewsBinding;
+
 public class NewsFragment extends Fragment {
+    private String s1[], s2[], image_main_url[],image_logo_url[];
+    // data binding
+    private FragmentNewsBinding binding;
     private RecyclerView recyclerView;
-    private String array_games_titles[], array_games_types[];
-    private int images_main_id[] = {R.drawable.bullwide, R.drawable.ghoatwide, R.drawable.rabwide, R.drawable.wolfwide};
-    private int images_logo_id[] = {R.drawable.bulllogo, R.drawable.ghoatlogo, R.drawable.rablogo, R.drawable.wolflogo};
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_news, container, false);
+        binding = FragmentNewsBinding.inflate(inflater, container, false);
+        View view = binding.getRoot();
+        s1 = getResources().getStringArray(R.array.games_names);
+        s2 = getResources().getStringArray(R.array.games_types);
+        image_main_url = getResources().getStringArray(R.array.image_main_url);
+        image_logo_url = getResources().getStringArray(R.array.image_logo_url);
+        recyclerView = view.findViewById(R.id.recycler_view);
+        RecyclerViewAdapter recyclerViewAdapter = new RecyclerViewAdapter(view.getContext(), s1, s2, image_main_url,image_logo_url);
+        recyclerView.setAdapter(recyclerViewAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
+
+
+        return view;
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
 }
